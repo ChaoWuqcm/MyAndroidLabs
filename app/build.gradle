@@ -6,6 +6,9 @@ android {
     namespace 'com.cst2335.chaowu'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "com.cst2335.chaowu"
         minSdk 27
