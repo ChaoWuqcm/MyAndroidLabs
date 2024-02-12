@@ -8,7 +8,13 @@
     <string name="login">LOGIN</string>
     <string name="callnumber">CALL NUMBER</string>
     <string name="change">CHANGE PICTURE</string>
-
+    <string name="showemail">profile email</string>
+    //
+    <string name="start">The application is now visible on screen.</string>
+    <string name="resume">The application is now responding to user input</string>
+    <string name="stop">The application is no longer visible.</string>
+    <string name="pause">The application no longer responds to user input</string>
+    <string name="destory">Any memory used by the application is freed</string>
 
 
 

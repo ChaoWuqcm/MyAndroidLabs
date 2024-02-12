@@ -16,35 +16,35 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.w(TAG,"The application is now visible on screen.");
+        Log.w(TAG,getString(R.string.start));
 
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.w(TAG,"The application is now responding to user input");
+        Log.w(TAG,getString(R.string.resume));
 
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.w(TAG,"The application is no longer visible.\n");
+        Log.w(TAG,getString(R.string.stop));
 
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.w(TAG,"The application no longer responds to user input");
+        Log.w(TAG,getString(R.string.pause));
 
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.w(TAG,"Any memory used by the application is freed");
+        Log.w(TAG,getString(R.string.destory));
     }
 
     @Override

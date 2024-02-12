@@ -3,4 +3,11 @@
     <string name="app_name">吴超的安卓实验</string>
     <string name="hello_message">你好世界!</string>
     <string name="button_message">我是按钮</string>
+    <string name="email">输入邮箱：</string>
+    <string name="password">输入密码：</string>
+    <string name="typeemail">输入邮箱</string>
+    <string name="login">登录</string>
+    <string name="callnumber">打电话</string>
+    <string name="change">换照片</string>
+    <string name="showemail">用户邮箱</string>
 </resources>
