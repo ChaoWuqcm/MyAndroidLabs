@@ -2,4 +2,14 @@
     <string name="app_name">Chao Wu\'s Android Labs</string>
     <string name="hello_message">Hello world!</string>
     <string name="button_message">i\'m a button</string>
+    <string name="email">Enter your email address: </string>
+    <string name="password">Type your password: </string>
+    <string name="typeemail">Type email here</string>
+    <string name="login">LOGIN</string>
+    <string name="callnumber">CALL NUMBER</string>
+    <string name="change">CHANGE PICTURE</string>
+
+
+
+
 </resources>
