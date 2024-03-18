@@ -3,20 +3,10 @@
   <component name="deploymentTargetDropDown">
     <value>
       <entry key="ChatRoom">
-        <State>
-          <runningDeviceTargetSelectedWithDropDown>
-            <Target>
-              <type value="RUNNING_DEVICE_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\yehui\.android\avd\Nexus_4_API_27.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </runningDeviceTargetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-03-11T19:59:28.094287200Z" />
-        </State>
+        <State />
+      </entry>
+      <entry key="MainActivityTest">
+        <State />
       </entry>
       <entry key="app">
         <State />
