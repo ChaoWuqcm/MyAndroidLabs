@@ -11,6 +11,13 @@
     <string name="receive">Receive</string>
     <string name="message">Message goes here</string>
     <string name="time">Time goes here</string>
+    <string name="snackMessage">Do you want to delete the message: </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question">Question</string>
+    <string name="delete">You delete message # </string>
+    <string name="undo">Undo</string>
+
 
 
 

@@ -154,10 +154,10 @@ public class ChatRoom extends AppCompatActivity {
                 int position = getAbsoluteAdapterPosition();
                 Executor thread = Executors.newSingleThreadExecutor();
                 AlertDialog.Builder builder = new AlertDialog.Builder( ChatRoom.this );
-                builder.setMessage("Do you want to delete the message: "+ messageText.getText())
-                .setTitle("Question")
-                .setNegativeButton("No",(dialog, cl)->{}).
-                setPositiveButton("Yes",(dialog, cl)->{
+                builder.setMessage(getString(R.string.snackMessage)+ messageText.getText().toString())
+                .setTitle(R.string.question)
+                .setNegativeButton(R.string.no,(dialog, cl)->{}).
+                setPositiveButton(R.string.yes,(dialog, cl)->{
 
                     ChatMessage m = messages.get(position);
                     thread.execute(()->{
@@ -166,8 +166,8 @@ public class ChatRoom extends AppCompatActivity {
 
                     messages.remove(position);
                     myAdapter.notifyItemRemoved(position);
-                    Snackbar.make(messageText,"You delete message # "+position,Snackbar.LENGTH_LONG).
-                            setAction("Undo", click -> {
+                    Snackbar.make(messageText,R.string.delete+position,Snackbar.LENGTH_LONG).
+                            setAction(R.string.undo, click -> {
                                 messages.add(position,m);
                                 myAdapter.notifyItemInserted(position);
                             }).show();
